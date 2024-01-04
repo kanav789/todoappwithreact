@@ -1,0 +1,45 @@
+.container {
+  width: 50%;
+  margin: 20vh auto;
+  height: 100%;
+  background-color: lightpink;
+  color: black;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.todoapp {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.input {
+  height: 4vh;
+  width: 40vh;
+  border-radius: 5px;
+  color: grey;
+  margin: 10vh 0 0 0;
+  background-color: black;
+}
+
+.button1 {
+  height: 3vh;
+  border-radius: 5px;
+  width: auto;
+  background-color: rgb(101, 101, 110);
+  font-size: auto;
+}
+
+li {
+  margin: 30px;
+  list-style: decimal;
+}
